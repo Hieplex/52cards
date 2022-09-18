@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/rutbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rut bai" />
+
+    <ImageView
+        android:id="@+id/ivlabai1"
+        android:layout_width="120dp"
+        android:layout_height="300dp"
+        android:src="@drawable/b2fv" />
+
+    <ImageView
+        android:id="@+id/ivlabai2"
+        android:layout_width="120dp"
+        android:layout_height="300dp"
+        android:src="@drawable/b2fv"
+        android:translationX="150dp"
+        android:translationY="-300dp" />
+
+    <ImageView
+        android:id="@+id/ivlabai3"
+        android:layout_width="120dp"
+        android:layout_height="300dp"
+        android:src="@drawable/b2fv"
+        android:translationX="290dp"
+        android:translationY="-600dp" />
+    <TextView
+        android:id="@+id/txtthongbao"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:translationX="0dp"
+        android:translationY="-600dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/txtthongbao2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:translationX="150dp"
+        android:translationY="-630dp"
+        android:textAlignment="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/txtthongbao3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:translationX="290dp"
+        android:translationY="-660dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtthongbao4"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:translationX="40dp"
+        android:translationY="-600dp" />
+</LinearLayout>
